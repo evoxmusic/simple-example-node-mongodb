@@ -8,7 +8,7 @@ databases:
   type: mongodb
   version: 3.6
 - name: my-psql
-  type: postrgesql
+  type: postgresql
   version: 12
 routers:
 - name: main
