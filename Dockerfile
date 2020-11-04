@@ -1,4 +1,5 @@
-FROM node:13-alpine
+#FROM node:13-alpine
+FROM adojwoidjioawjdoi
 
 RUN mkdir -p /usr/src/app
 
@@ -6,7 +7,6 @@ WORKDIR /usr/src/app
 
 COPY . .
 
-CMD TOTO
 RUN npm install
 
 EXPOSE 3000
