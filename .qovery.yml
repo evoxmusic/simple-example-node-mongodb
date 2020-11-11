@@ -16,3 +16,4 @@ routers:
   - application_name: simple-example-node-mongodb
     paths:
     - /
+
